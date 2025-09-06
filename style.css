@@ -40,3 +40,47 @@ body {
     background-color: #575757;
     border-radius: 4px;
   }
+
+
+    /* Hero section */
+    .hero {
+        height: 100vh;
+        background: url('https://picsum.photos/1600/900') no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 0 1rem;
+      }
+  
+      .hero-content {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+        border-radius: 8px;
+      }
+  
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+  
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+  
+      .hero button {
+        background: #ff6600;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        color: white;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+  
+      .hero button:hover {
+        background: #e65c00;
+      }
